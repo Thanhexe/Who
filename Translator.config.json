@@ -1,0 +1,46 @@
+{
+	"all": {
+		"authKeys": {
+			"deepl": {
+				"paid": true
+			}
+		},
+		"choices": {
+			"received": {
+				"input": "auto",
+				"output": "$discord"
+			},
+			"sent": {
+				"input": "auto",
+				"output": "en"
+			}
+		},
+		"engines": {
+			"backup": "itranslate",
+			"translator": "googleapi"
+		},
+		"exceptions": {
+			"wordStart": [
+				"!"
+			]
+		},
+		"general": {
+			"addTranslateButton": true,
+			"sendOriginalMessage": false,
+			"showOriginalMessage": true,
+			"usePerChatTranslation": true
+		},
+		"guildLanguages": {
+			"1051177491349389402": {
+				"received": {
+					"input": "en",
+					"output": "$discord"
+				}
+			}
+		},
+		"translationEnabledStates": [
+			"842850453640446012",
+			"1111888893298622485"
+		]
+	}
+}
